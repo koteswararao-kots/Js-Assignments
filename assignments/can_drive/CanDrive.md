@@ -21,7 +21,7 @@ If you are not tired and you are sober - "You can drive"
 
 ```bash
 Input - false, false, true
-Output - "You cannot drive"
+Output -"You cannot drive" 
 
 Input - true, false, true
 Output - "You can drive"
