@@ -1,13 +1,24 @@
 <html>
     <head>
-        <title>Todo List</title>
+        <title>Todo API</title>
+        <style>
+            button{
+                background-color: aqua;
+            }
+        </style>
+
     </head>
     <body>
-        <div>
-            <input type='text' name='todo_input' >
-            <button type='submit'>Add Todo</button>
-            <div class='todos'></div>
-        </div>
+        <div style="text-align: center;">
+        <button onclick="AllTodos()">AllTodos</button>
+        <button onclick="Completed()">CompletedTodos</button>
+        <button onclick="Pending()">PendingTodos</button>
+    </div>
+    <div class="Todos"></div>
+        
     </body>
-    <script src='./script.js'></script>
+    <script src="./script.js"></script>
+
+
+
 </html>
